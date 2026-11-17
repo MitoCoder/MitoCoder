@@ -1,54 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 460" width="1040" height="460" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 410" width="1040" height="410" role="img" aria-labelledby="title desc">
   <title id="title">Edvam Santos · MitoCoder</title>
-  <desc id="desc">Desenvolvimento full stack e automação. Linhas representam sinais dispersos que convergem em um fluxo verificável.</desc>
+  <desc id="desc">Desenvolvedor full stack, criador da Nikluma. Uma órbita conecta código, dados e operação.</desc>
   <defs>
-    <linearGradient id="bg" x2="1" y2="1" gradientUnits="objectBoundingBox">
-      <stop stop-color="#07101f"/>
-      <stop offset="1" stop-color="#0b2340"/>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#090f20"/>
+      <stop offset="1" stop-color="#1b1940"/>
     </linearGradient>
-    <linearGradient id="trace">
-      <stop stop-color="#5276af" stop-opacity=".35"/>
-      <stop offset=".7" stop-color="#6f9bff"/>
-      <stop offset="1" stop-color="#70f3dc"/>
+    <linearGradient id="orbit">
+      <stop stop-color="#b49aff"/>
+      <stop offset="1" stop-color="#58e7d2"/>
     </linearGradient>
-    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M24 0H0V24" fill="none" stroke="#8cbbff" stroke-opacity=".12"/>
+    <pattern id="dots" width="19" height="19" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#ae9efa" opacity=".27"/>
     </pattern>
-    <clipPath id="frame"><rect width="1040" height="460" rx="26"/></clipPath>
+    <clipPath id="frame"><rect x="1" y="1" width="1038" height="408" rx="24"/></clipPath>
   </defs>
   <g clip-path="url(#frame)">
-    <rect width="1040" height="460" fill="url(#bg)"/>
-    <rect x="595" width="445" height="460" fill="url(#grid)"/>
-    <path d="M0 76H1040M0 382H1040" stroke="#9ebdff" stroke-opacity=".22"/>
-    <path d="M595 76V382" stroke="#9ebdff" stroke-opacity=".22"/>
-    <circle cx="52" cy="39" r="4" fill="#70f3dc"/>
-    <g font-family="Consolas, monospace" font-size="16" letter-spacing="2">
-      <text x="68" y="45" fill="#c2d5f5">MITOCODER</text>
-      <text x="990" y="45" fill="#b0c6e5" text-anchor="end">GUARULHOS · SP</text>
-      <text x="48" y="427" fill="#b0c6e5">ENGENHARIA DE SOFTWARE</text>
-      <text x="990" y="427" fill="#70f3dc" text-anchor="end">NIKLUMA.COM.BR</text>
+    <rect width="1040" height="410" fill="url(#background)"/>
+    <rect x="578" width="462" height="410" fill="url(#dots)"/>
+    <path d="M0 69H1040M0 347H1040M578 69V347" fill="none" stroke="#344368"/>
+    <g fill="#c8d4ee" font-family="Consolas, monospace" font-size="17" letter-spacing="2">
+      <text x="40" y="43" fill="#8ff5d7">@MITOCODER</text>
+      <text x="999" y="43" text-anchor="end">GUARULHOS / SP</text>
+      <text x="40" y="385">FULL STACK / INTEGRAÇÕES / AUTOMAÇÃO</text>
+      <text x="999" y="385" text-anchor="end" fill="#b49aff">NIKLUMA.COM.BR</text>
     </g>
-    <g font-family="Segoe UI, Arial, sans-serif">
-      <text x="46" y="185" fill="#f5f9ff" font-size="77" font-weight="700" letter-spacing="-4">Edvam</text>
-      <text x="46" y="267" fill="#f5f9ff" font-size="96" font-weight="700" letter-spacing="-5">Santos<tspan fill="#70f3dc">.</tspan></text>
-      <text x="50" y="326" fill="#bacfec" font-size="25">Full stack · Integrações · Automação</text>
+    <g font-family="Segoe UI, Arial, sans-serif" font-weight="700">
+      <text x="35" y="174" font-size="88" letter-spacing="-5" fill="#f2f4ff">Edvam</text>
+      <text x="35" y="272" font-size="115" letter-spacing="-6" fill="#f2f4ff">Santos<tspan fill="#b49aff">.</tspan></text>
     </g>
-    <g fill="none" stroke="url(#trace)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M644 146H699L760 207H837L868 230H979"/>
-      <path d="M644 187H681L725 230H979"/>
-      <path d="M644 273H689L731 230"/>
-      <path d="M644 314H696L756 254H834L868 230"/>
+    <g transform="translate(809 208)">
+      <ellipse rx="146" ry="60" transform="rotate(-28)" fill="none" stroke="url(#orbit)" stroke-width="2"/>
+      <ellipse rx="146" ry="60" transform="rotate(28)" fill="none" stroke="url(#orbit)" stroke-opacity=".45"/>
+      <circle r="99" fill="none" stroke="#b49aff" stroke-opacity=".24" stroke-dasharray="3 6"/>
+      <path d="M0 -55L48 -28V28L0 55L-48 28V-28Z" fill="#171d38" stroke="url(#orbit)" stroke-width="2"/>
+      <path d="M-13 -31L-31 0L-13 31M13 -31L31 0L13 31M7 -18L-7 18" fill="none" stroke="#e6ddff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <g>
+        <circle cx="-117" cy="75" r="8" fill="#b49aff"/>
+        <circle cx="119" cy="-72" r="8" fill="#8ff5d7"/>
+        <circle cx="122" cy="74" r="5" fill="#b49aff"/>
+      </g>
     </g>
-    <g fill="#8db1fa">
-      <circle cx="644" cy="146" r="4"/>
-      <circle cx="644" cy="187" r="4"/>
-      <circle cx="644" cy="273" r="4"/>
-      <circle cx="644" cy="314" r="4"/>
-    </g>
-    <g fill="none" stroke="#70f3dc">
-      <circle cx="979" cy="230" r="16" opacity=".3"/>
-      <circle cx="979" cy="230" r="26" opacity=".15"/>
-    </g>
-    <circle cx="979" cy="230" r="6" fill="#70f3dc"/>
   </g>
+  <rect x="1" y="1" width="1038" height="408" rx="24" fill="none" stroke="#344368" stroke-width="2"/>
 </svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 158" width="1040" height="158" role="img" aria-labelledby="title" font-family="Segoe UI, Arial, sans-serif">
+<title id="title">19 contribuições (últimos 12 meses) · 78 commits públicos (indexados pelo GitHub) · 0 pushes públicos (eventos recentes) · 7 dias ativos (últimos 12 meses)</title>
+<rect x="1" y="1" width="1038" height="156" rx="22" fill="#0b1326" stroke="#344368" stroke-width="2"/>
+<text x="34" y="66" fill="#b49aff" font-size="50" font-weight="700">19</text>
+<text x="34" y="102" fill="#eaf1ff" font-size="22" font-weight="700">Contribuições</text>
+<text x="34" y="127" fill="#bac8e4" font-size="17" font-weight="400">últimos 12 meses</text>
+<path d="M269 24v110" stroke="#344368"/>
+<text x="286" y="66" fill="#b49aff" font-size="50" font-weight="700">78</text>
+<text x="286" y="102" fill="#eaf1ff" font-size="22" font-weight="700">Commits públicos</text>
+<text x="286" y="127" fill="#bac8e4" font-size="17" font-weight="400">indexados pelo GitHub</text>
+<path d="M521 24v110" stroke="#344368"/>
+<text x="538" y="66" fill="#b49aff" font-size="50" font-weight="700">0</text>
+<text x="538" y="102" fill="#eaf1ff" font-size="22" font-weight="700">Pushes públicos</text>
+<text x="538" y="127" fill="#bac8e4" font-size="17" font-weight="400">eventos recentes</text>
+<path d="M773 24v110" stroke="#344368"/>
+<text x="790" y="66" fill="#b49aff" font-size="50" font-weight="700">7</text>
+<text x="790" y="102" fill="#eaf1ff" font-size="22" font-weight="700">Dias ativos</text>
+<text x="790" y="127" fill="#bac8e4" font-size="17" font-weight="400">últimos 12 meses</text>
+</svg>
