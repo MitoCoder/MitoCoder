@@ -1,122 +1,39 @@
-<!-- ULTRA ELITE README -->
+<img src="./assets/edvam-santos.svg" width="1040" alt="Edvam Santos, MitoCoder. Full stack, integrações e automação. Guarulhos, SP.">
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:001f1f&height=220&section=header&text=EDVAM%20SANTOS&fontSize=55&fontColor=00ffcc&animation=fadeIn&fontAlignY=35"/>
-</p>
+# Software para quem precisa agir
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=32&duration=3000&color=00FFCC&center=true&vCenter=true&width=900&lines=Full+Stack+Developer;Building+Real+World+Systems;Performance+%7C+Scalability+%7C+Clean+Code" />
-</p>
+Sou **Edvam Santos**, desenvolvedor full stack por trás da **Nikluma**. Gosto de entrar em operações onde a informação está espalhada, entender como as pessoas decidem e construir o sistema que conecta essas duas coisas. Trabalho da integração à interface, passando pelas regras que dão sentido aos dados.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
-</p>
+[Conheça a Nikluma ↗](https://www.nikluma.com.br/) · [Veja meu portfólio ↗](https://github.com/MitoCoder/Portfolio-Edvam-Santos) · [Explore meus repositórios ↗](https://github.com/MitoCoder?tab=repositories)
 
----
+## Como eu penso um sistema
 
-# ⚡ ABOUT
+> Se um dado muda uma decisão, a interface precisa mostrar o que aconteceu, de onde veio e qual é o próximo passo.
 
-```txt
-24 y/o Full Stack Developer
-Based in Brazil 🇧🇷
-Focused on scalable systems and performance
-Building real products, not just code
-```
+<details>
+<summary><strong>Uma entrega atrasou. O que a tela deve responder?</strong></summary>
 
----
+Uma contagem de atrasos ajuda a enxergar o volume. Para decidir o que fazer, eu começaria pela nota afetada e pela última ocorrência, com a origem e o horário do dado ao lado. A partir daí, a pessoa consegue conferir a situação e registrar a tratativa no contexto certo.
 
-# 🚀 FEATURED PROJECTS
+Esse problema aparece no **Control Tower**, que reúne posição de notas, indicadores, exceções e tratativas em operações logísticas com SSW. [Conheça o Control Tower ↗](https://www.nikluma.com.br/produto/control-tower/)
 
-<div align="center">
+</details>
 
-<table>
-<tr>
-<td width="50%">
+<details>
+<summary><strong>O saldo mudou. Como alguém confere o número?</strong></summary>
 
-### 🔥 Web Platform
-Full stack system with authentication, dashboard and API.
+Eu desenharia a consulta do saldo até os lançamentos que o compõem. O período precisa acompanhar a navegação, e o documento que sustenta uma despesa deve estar acessível a quem tem permissão para conferi-la.
 
-<img src="https://via.placeholder.com/420x220/000000/00ffcc?text=WEB+APP+PREVIEW"/>
+O **TH Contábil** aplica essa ideia à prestação de contas condominial, com receitas, despesas, documentos e prestadores reunidos em um painel. [Conheça o TH Contábil ↗](https://www.nikluma.com.br/solucoes/th-contabil/)
 
-</td>
+</details>
 
-<td width="50%">
+## Pelo código
 
-### ⚡ High Performance API
-Node.js API designed for scalability and speed.
+| Repositório | O que você encontra |
+| --- | --- |
+| [Sistema de Gestão Plus](https://github.com/MitoCoder/Serverless-Build-Client) | Aplicação de gestão com cliente React, API Node.js e geração de PDFs. |
+| [Pitoco Magazine](https://github.com/MitoCoder/Pitoco-Magazine) | Interface de e-commerce em React, com catálogo, navegação e componentes em Material UI. |
+| [Portfólio pessoal](https://github.com/MitoCoder/Portfolio-Edvam-Santos) | O código da minha apresentação na web. |
 
-<img src="https://via.placeholder.com/420x220/000000/00ffcc?text=API+PREVIEW"/>
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### 🧠 Automation System
-Automation workflows for real-world tasks.
-
-<img src="https://via.placeholder.com/420x220/000000/00ffcc?text=AUTOMATION"/>
-
-</td>
-
-<td width="50%">
-
-### 💻 Desktop System
-Robust desktop application with C#.
-
-<img src="https://via.placeholder.com/420x220/000000/00ffcc?text=DESKTOP+APP"/>
-
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-# 📊 STATS
-
-<p align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=MitoCoder&show_icons=true&hide_border=true&bg_color=000000&title_color=00ffcc&icon_color=00ffcc&text_color=ffffff"/>
-  <img height="170em" src="https://github-readme-streak-stats.herokuapp.com/?user=MitoCoder&hide_border=true&background=000000&ring=00ffcc&fire=00ffcc"/>
-</p>
-
----
-
-# ⚙️ STACK
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,react,typescript,python,cs,mysql,git,github,vscode,figma&theme=dark" />
-</p>
-
----
-
-# 🧩 PRINCIPLES
-
-<p align="center">
-
-```txt
-• Clean Code
-• Performance First
-• Scalable Architecture
-• Real Problem Solving
-```
-
-</p>
-
----
-
-# 🌐 CONTACT
-
-<p align="center">
-<a href="https://www.instagram.com/mycosmus/">
-<img src="https://img.shields.io/badge/Instagram-black?style=for-the-badge&logo=instagram&logoColor=00ffcc"/>
-</a>
-</p>
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:001f1f,100:000000&height=120&section=footer"/>
-</p>
+Se você está tentando conectar sistemas que hoje só conversam por planilha, [fale comigo pela Nikluma ↗](https://www.nikluma.com.br/).

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 460" width="1040" height="460" role="img" aria-labelledby="title desc">
+  <title id="title">Edvam Santos · MitoCoder</title>
+  <desc id="desc">Desenvolvimento full stack e automação. Linhas representam sinais dispersos que convergem em um fluxo verificável.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#07101f"/>
+      <stop offset="1" stop-color="#0b2340"/>
+    </linearGradient>
+    <linearGradient id="trace">
+      <stop stop-color="#5276af" stop-opacity=".35"/>
+      <stop offset=".7" stop-color="#6f9bff"/>
+      <stop offset="1" stop-color="#70f3dc"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#8cbbff" stroke-opacity=".12"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1040" height="460" rx="26"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1040" height="460" fill="url(#bg)"/>
+    <rect x="595" width="445" height="460" fill="url(#grid)"/>
+    <path d="M0 76H1040M0 382H1040" stroke="#9ebdff" stroke-opacity=".22"/>
+    <path d="M595 76V382" stroke="#9ebdff" stroke-opacity=".22"/>
+    <circle cx="52" cy="39" r="4" fill="#70f3dc"/>
+    <g font-family="Consolas, monospace" font-size="16" letter-spacing="2">
+      <text x="68" y="45" fill="#c2d5f5">MITOCODER</text>
+      <text x="990" y="45" fill="#b0c6e5" text-anchor="end">GUARULHOS · SP</text>
+      <text x="48" y="427" fill="#b0c6e5">ENGENHARIA DE SOFTWARE</text>
+      <text x="990" y="427" fill="#70f3dc" text-anchor="end">NIKLUMA.COM.BR</text>
+    </g>
+    <g font-family="Segoe UI, Arial, sans-serif">
+      <text x="46" y="185" fill="#f5f9ff" font-size="77" font-weight="700" letter-spacing="-4">Edvam</text>
+      <text x="46" y="267" fill="#f5f9ff" font-size="96" font-weight="700" letter-spacing="-5">Santos<tspan fill="#70f3dc">.</tspan></text>
+      <text x="50" y="326" fill="#bacfec" font-size="25">Full stack · Integrações · Automação</text>
+    </g>
+    <g fill="none" stroke="url(#trace)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M644 146H699L760 207H837L868 230H979"/>
+      <path d="M644 187H681L725 230H979"/>
+      <path d="M644 273H689L731 230"/>
+      <path d="M644 314H696L756 254H834L868 230"/>
+    </g>
+    <g fill="#8db1fa">
+      <circle cx="644" cy="146" r="4"/>
+      <circle cx="644" cy="187" r="4"/>
+      <circle cx="644" cy="273" r="4"/>
+      <circle cx="644" cy="314" r="4"/>
+    </g>
+    <g fill="none" stroke="#70f3dc">
+      <circle cx="979" cy="230" r="16" opacity=".3"/>
+      <circle cx="979" cy="230" r="26" opacity=".15"/>
+    </g>
+    <circle cx="979" cy="230" r="6" fill="#70f3dc"/>
+  </g>
+</svg>
